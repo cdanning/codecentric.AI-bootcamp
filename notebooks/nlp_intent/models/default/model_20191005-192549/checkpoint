@@ -1,0 +1,2 @@
+model_checkpoint_path: "/notebooks/nlp_intent/models/default/model_20191005-192549/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/notebooks/nlp_intent/models/default/model_20191005-192549/intent_classifier_tensorflow_embedding.ckpt"

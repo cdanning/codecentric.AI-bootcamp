@@ -1,0 +1,229 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Frag_Temperatur",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "warm",
+            "entity": "Eigenschaft"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "1900",
+            "entity": "Zeit"
+          },
+          {
+            "start": 24,
+            "end": 35,
+            "value": "Brandenburg",
+            "entity": "Ort"
+          }
+        ],
+        "text": "Wie warm war es 1900 in Brandenburg"
+      },
+      {
+        "intent": "Frag_Temperatur",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "kalt",
+            "entity": "Eigenschaft"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Hessen",
+            "entity": "Ort"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "1900",
+            "entity": "Zeit"
+          }
+        ],
+        "text": "Wie kalt war es in Hessen 1900"
+      },
+      {
+        "intent": "Frag_Temperatur",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "1977",
+            "entity": "Zeit"
+          },
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Sachsen",
+            "entity": "Ort"
+          }
+        ],
+        "text": "Was war die Temperatur 1977 in Sachsen"
+      },
+      {
+        "intent": "Frag_Ort",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "1998",
+            "entity": "Zeit"
+          },
+          {
+            "start": 18,
+            "end": 27,
+            "value": "kalt",
+            "entity": "Superlativ"
+          }
+        ],
+        "text": "Wo war es 1998 am kältesten"
+      },
+      {
+        "intent": "Frag_Ort",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "kalt",
+            "entity": "Superlativ"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "2004",
+            "entity": "Zeit"
+          }
+        ],
+        "text": "Finde das kältesten Bundesland im Jahr 2004"
+      },
+      {
+        "intent": "Frag_Ort",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "2010",
+            "entity": "Zeit"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "kalt",
+            "entity": "Komparativ"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "1994",
+            "entity": "Zeit"
+          },
+          {
+            "start": 34,
+            "end": 49,
+            "value": "Rheinland-Pfalz",
+            "entity": "Ort"
+          }
+        ],
+        "text": "Wo war es 2010 kälter als 1994 in Rheinland-Pfalz"
+      },
+      {
+        "intent": "Frag_Zeit",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Bayern",
+            "entity": "Ort"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "kalt",
+            "entity": "Superlativ"
+          }
+        ],
+        "text": "Wann war es in Bayern am kühlsten"
+      },
+      {
+        "intent": "Frag_Zeit",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "kalt",
+            "entity": "Superlativ"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "Saarland",
+            "entity": "Ort"
+          }
+        ],
+        "text": "Finde das kälteste Jahr im Saarland"
+      },
+      {
+        "intent": "Frag_Zeit",
+        "entities": [
+          {
+            "start": 15,
+            "end": 33,
+            "value": "Schleswig-Holstein",
+            "entity": "Ort"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "warm",
+            "entity": "Komparativ"
+          },
+          {
+            "start": 48,
+            "end": 65,
+            "value": "Baden-Württemberg",
+            "entity": "Ort"
+          }
+        ],
+        "text": "Wann war es in Schleswig-Holstein wärmer als in Baden-Württemberg"
+      },
+      {
+        "intent": "Ende",
+        "text": "Ende"
+      },
+      {
+        "intent": "Ende",
+        "text": "Auf Wiedersehen"
+      },
+      {
+        "intent": "Ende",
+        "text": "Tschuess"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "kalt",
+        "synonyms": [
+          "kältesten",
+          "kälter",
+          "kühlsten",
+          "kälteste"
+        ]
+      },
+      {
+        "value": "warm",
+        "synonyms": [
+          "wärmer"
+        ]
+      }
+    ]
+  }
+}
